@@ -1,0 +1,13 @@
+# Fichiers inutiles sur Vercel (hébergement statique + fonctions Node)
+contact.php
+.htaccess
+build.py
+demandes.log
+
+# Documentation
+README.md
+DEPLOIEMENT-GITHUB.md
+DEPLOIEMENT-VERCEL.md
+
+# Automatisations réservées aux autres modes de déploiement
+.github/

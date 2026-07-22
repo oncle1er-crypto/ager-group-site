@@ -1,0 +1,10 @@
+{
+  "name": "ager-group-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site vitrine institutionnel AGER GROUP — Abidjan, Côte d'Ivoire",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

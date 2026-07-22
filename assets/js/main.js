@@ -144,4 +144,18 @@
       }
     });
   }
+
+  const presidentCard = qs('#president .president__carte');
+  const presidentLogo = presidentCard ? qs('.marque', presidentCard) : null;
+  if (presidentCard && presidentLogo) {
+    const photo = document.createElement('img');
+    photo.src = 'assets/img/president-adouko-gerard.svg';
+    photo.alt = 'Adouko Gérard, Président Directeur Général d’AGER GROUP';
+    photo.width = 480;
+    photo.height = 600;
+    photo.loading = 'lazy';
+    photo.style.cssText = 'display:block;width:100%;max-width:320px;aspect-ratio:4/5;margin:0 auto 26px;object-fit:cover;object-position:center top;border-radius:8px;box-shadow:0 14px 34px rgba(23,61,86,.18)';
+    const logoWrapper = presidentLogo.closest('span');
+    (logoWrapper || presidentLogo).replaceWith(photo);
+  }
 })();

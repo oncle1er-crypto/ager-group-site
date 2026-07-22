@@ -1,0 +1,7 @@
+# AGER GROUP — agergroup.ci
+User-agent: *
+Allow: /
+Disallow: /demandes.log
+Disallow: /build.py
+
+Sitemap: https://agergroup.ci/sitemap.xml

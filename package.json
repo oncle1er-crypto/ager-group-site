@@ -6,8 +6,5 @@
   "type": "module",
   "engines": {
     "node": ">=18"
-  },
-  "scripts": {
-    "build": "echo \"Site statique : aucune compilation nécessaire.\""
   }
 }
